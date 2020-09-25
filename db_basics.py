@@ -1,5 +1,4 @@
 import mysql.connector
-import tkinter as tk
 import requests
 
 
@@ -23,16 +22,17 @@ print(type(records))
 data = receive.json()
 print(type(data))
 
-for x in data:
-  print(data[x])
-
+#for x in data:
+#  print(data[x])
+#abc
 
 print(data[2]["punchline"])
 #print(records["name"])
 
 
 for x in records:
-  print(x)
+ print(x)
+
 
 
 
